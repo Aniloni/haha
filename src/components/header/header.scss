@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --brownColor: rgba(98, 59, 42, 1);
+    --brownOpacity10: rgba(98, 59, 42, 0.1);
+    --brownOpacity20: rgba(195, 147, 103, 0.2);
+    --brownOpaciry90: rgba(98, 59, 42, 0.9);
+    --brownOpacity60: rgba(98, 59, 42, 0.6);
+    --blackContent: rgba(44, 42, 41, 1);
+    --attentionContent: rgba(224, 78, 57, 1);
+    --redOpacity60: rgba(231, 52, 46, 0.6);
+    --orangeOpacity60: rgba(243, 148, 0, 0.6);
+    --yellowOpacity60: rgba(254, 234, 18, 0.6);
+    --lightGreenOpacity60: rgba(152, 190, 13, 0.6);
+    --greenOpacity60: rgba(66, 166, 42, 0.6);
+    --marginBtn: 35px 0 0 25px;
+    
+      
+}
+
+.header-mini{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.border-left{
+    display: flex;
+    align-items: center;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.94px;
+    background-color: var(--white);
+    border-left: 1px solid var(--brownOpaciry90);
+    height: 93.13px;
+    padding-left: 20px;
+    color: var(--blackContent);
+}
+img{
+    width: 109px;
+    height: 45px;
+    margin-right: 20px;
+ }
